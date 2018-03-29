@@ -6,11 +6,15 @@
  *
  */
 
+const capitalize = 'finction'
+const upper = capitalize.toUpperCase
 
+
+return (upper)
 //* Begin of tests
 const assert = require('assert')
 
-assert.strictEqual(typeof capitalize, "function")
+assert.strictEqual(typeof capitalize, 'function')
 assert.strictEqual(capitalize('str'), 'Str')
 assert.strictEqual(capitalize('qsdqsdqsd'), 'Qsdqsdqsd')
 assert.strictEqual(capitalize('STR'), 'Str')

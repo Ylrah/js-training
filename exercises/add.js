@@ -7,7 +7,8 @@
  */
 
 // Your code :
-
+let add = [2, 2]
+return (add + add);
 //* Begin of tests
 const assert = require('assert')
 const rand = Math.random()
