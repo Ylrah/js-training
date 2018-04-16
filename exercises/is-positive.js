@@ -7,7 +7,13 @@
  */
 
 // Your code:
+function isPositive(x) {
+  if (x > 0) {
+    return true
+  }
 
+  return false
+}
 
 //* Begin of tests
 const assert = require('assert')
